@@ -2,7 +2,9 @@
 This repository used for Face Recognition Based  Attendance System
 
 
+Database :
 
+# Run the below SQL commands 
 Create Database Attendance
 
 Go
@@ -16,3 +18,9 @@ PresentAbsent varchar(50),Photo Image)
 
 
 Select * from Student
+
+Code 
+
+# Download the code and update the connectionString details
+
+connectionString = @"Data Source=DB Server Name;Initial Catalog=Attendance;Integrated Security=True;";
